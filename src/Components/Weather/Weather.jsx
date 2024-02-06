@@ -51,10 +51,10 @@ const Weather = () => {
     
 
     return (
-        <div className='w-1/2 h-[600px] text-center bg-black mx-auto'>
+        <div className='md:w-1/2 w-full h-[600px] text-center bg-black mx-auto'>
             <form onSubmit={search} className='pt-5'>
-                <input type="text" placeholder="Enter Your Location" className="input input-bordered input-info w-full max-w-xs" name='location' />
-                <button className='btn btn-info ml-2'>Search</button>
+                <input type="text" placeholder="Enter A City" className="input input-bordered input-info w-full max-w-xs" name='location' />
+                <button className='btn btn-info mt-2 ml-2'>Search</button>
             </form>
             <img src={wicon} className='mx-auto h-[100px] w-[100px]' alt="" />
 
